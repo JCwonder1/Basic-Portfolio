@@ -67,6 +67,29 @@ table {
     width: 960px;
 }
 
+.container img{
+    float: left;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
 /*
   ========================================
   Name
@@ -75,5 +98,177 @@ table {
 
 .fullname{
     float: left;
+    background-color: #4aaaa5;
+    color: white;
+    
 
 }
+
+.fullname a{
+    color: white;
+}
+
+.fullname a:hover{
+    color: grey;
+}
+.primary-header{
+    font: 300 16px/22px "Georgia", "Times", "Times New Roman", "serif";
+    background-color: white;
+    border-bottom: 10px solid grey;
+    width:100%;
+    padding-left: 360px;
+    padding-right: 360px;
+}
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer{
+    text-align: center;
+    background-color: grey;
+    color: white;
+    width: 100%;
+    border-top: 10px solid #4aaaa5;
+    padding: 20px 0px 1px 0px;
+    color: darkgray;
+    position: absolute;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.row-3 p{
+    display: inline-block;
+    margin: 20px 1.5%;
+    width: 30%;
+  }
+  
+.row-4-6 p{
+    display: inline-block;
+    margin: 0 1.5%;
+    width: 30%;
+  }
+
+/*
+  ========================================
+  Custom Style
+  ========================================
+*/
+
+h1 {
+    padding: 20px;
+    font-size: 36px;
+    line-height: 44px;
+}
+h2 {
+    font-size: 24px;
+    line-height: 44px;
+}
+h3 {
+    font-size: 21px;
+}
+h4 {
+    font-size: 18px;
+}
+strong {
+    font-weight: 400;
+}
+cite, em {
+    font-style: italic;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a:hover {
+    color: #4aaaa5;
+  }
+a {
+    color: grey;
+    text-decoration: none;
+}
+  
+/*
+  ========================================
+  Nav
+  ========================================
+*/
+
+.primary-nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.nav{
+    text-align: right;
+    padding: 24px 0px;
+}
+  
+
+/*
+  ========================================
+  Main
+  ========================================
+*/
+
+.main{
+    border:2px solid grey;
+    width: 960px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin: 20px 360px;
+    background-color: white;
+    height: 80%;
+}
+
+section img{
+    float: left;
+    padding-right: 20px;
+}
+
+.pattern{
+    background-image: url("../images/circuit.png");
+    height:735px;
+}
+
+.main-header-break{
+    border-bottom: 1px solid grey;
+    color: #4aaaa5;
+    font: 300 16px/22px "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+
+/*
+  ========================================
+  Form
+  ========================================
+*/
+
+input[type=text]{
+    width: 100%;
+    margin: 20px 0px;
+    height: 40px;
+    box-sizing: border-box;
+    
+}
+
+input[type=submit]{
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
