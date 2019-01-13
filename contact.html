@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
     <title>About Me</title>
 </head>
 <body>
-<header>
-    <h1>Joseph Cannova</h1>
+<header class="container">
+    <h1 class="fullname">Joseph Cannova</h1>
     <nav class="nav primary-nav">
         <a href="index.html">About Me</a>
         <a href="portfolio.html">Portfolio</a>
@@ -16,18 +16,24 @@
     </nav>
 </header>
 
-<section>
+<section class="container">
     <h2>Contact</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
+    <div>
+        <form action="mailto:jcannova@wheelership.com" method="post" enctype="text/plain">
+            Name<br>
+            <input type="text" name="name"><br>
+            E-mail<br>
+            <input type="text" name="mail"><br>
+            Message<br>
+            <input type="text" name="comment" size="250"><br><br>
+            <input type="submit" value="Send">
+            </form>
+    </div>
 </section>
 
 
 
-<footer>
+<footer class="container">
     <small>2018 &copy;</small>
 </footer>
 </body>
