@@ -214,7 +214,15 @@ a {
     text-align: right;
     padding: 24px 0px;
 }
-  
+
+.nav a{
+    margin-right: 10px;
+}
+
+.ver-line{
+    padding-right: 10px;
+    border-right: 1px solid lightgrey;
+}
 
 /*
   ========================================
@@ -258,17 +266,26 @@ section img{
 input[type=text]{
     width: 100%;
     margin: 20px 0px;
-    height: 40px;
     box-sizing: border-box;
-    
+    font-size: 16px;
+    line-height: 1px;
 }
 
 input[type=submit]{
-    background-color: grey;
+    background-color: #4aaaa5;
     border: none;
     color: white;
-    padding: 16px 32px;
+    /*padding: 16px 32px;*/
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+  }
+
+  input[type=submit]:hover{
+      background-color: grey;
+  }
+
+  .message {
+      display: block;
+      height: 300px;
   }
