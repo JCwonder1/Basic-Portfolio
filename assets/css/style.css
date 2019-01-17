@@ -268,10 +268,10 @@ section img{
 
 input[type=text]{
     width: 100%;
+    padding: 4px 3px;
     margin: 20px 0px;
-    box-sizing: border-box;
-    font-size: 16px;
-    line-height: 1px;
+    font-size: 100%;
+    /* line-height: 1px; */
 }
 
 input[type=submit]{
@@ -282,7 +282,7 @@ input[type=submit]{
     text-decoration: none;
     /* margin: 4px 2px; */
     cursor: pointer;
-    font-size: 20px;
+    font-size: 100%;
   }
 
   input[type=submit]:hover{
@@ -292,5 +292,5 @@ input[type=submit]{
 
   .message {
       display: block;
-      height: 300px;
+      height: 250px;
   }
