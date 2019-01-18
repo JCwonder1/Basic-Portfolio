@@ -293,4 +293,7 @@ input[type=submit]{
   .message {
       display: block;
       height: 250px;
+      width: 100%;
+      margin-bottom: 15px;
+      font-size: 17px;
   }
